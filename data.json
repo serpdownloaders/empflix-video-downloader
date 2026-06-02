@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/empflix-downloader",
+  "serply_link": "https://serp.ly/empflix-downloader",
+  "app_name": "Empflix Video Downloader",
+  "short_description": "Download & Save Empflix Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Downloader for EmpFlix is a browser extension for saving videos from EmpFlix pages as standard video files. Open a supported EmpFlix video page, press play if needed, use the in-page download button or extension popup, choose an available format, and save through the browser.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/empflix-downloader-fullscreen-01-910711f5ac.webp",
+    "https://apps.serp.co/media/optimized-products/empflix-downloader-fullscreen-02-30a95f9ccf.webp",
+    "https://apps.serp.co/media/optimized-products/empflix-downloader-fullscreen-03-d0811fbebf.webp",
+    "https://apps.serp.co/media/optimized-products/empflix-downloader-fullscreen-04-1791ef230c.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download an EmpFlix video?",
+      "answer": "Open a supported EmpFlix video page, press play, then use the player download button, the extension icon, or the right-click menu."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension is positioned around direct MP4 and HLS/M3U8-style media URLs when they are exposed by the page."
+    },
+    {
+      "question": "What quality options are available?",
+      "answer": "Quality depends on what the source exposes. The extension attempts to infer resolution from detected labels or URLs and sorts available formats where possible."
+    },
+    {
+      "question": "Where are downloads saved?",
+      "answer": "The offscreen configuration uses an organized EmpFlix download folder in your browser's default download location."
+    },
+    {
+      "question": "Do I need to press play first?",
+      "answer": "Usually yes. Many video pages only expose the final stream after playback starts or after player scripts run."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Make sure the extension is installed correctly and has the necessary permissions. Right-click on the video area or page background."
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "EmpFlix-specific app identity with tailored player button configuration",
+    "In-page download button targeting the EmpFlix player wrapper",
+    "Media detection from video tags and page metadata",
+    "HLS and direct MP4 handling through the shared offscreen pipeline",
+    "Right-click context menu for quick access to downloads",
+    "EmpFlix-specific player button targeting the video wrapper",
+    "Generic static-media extraction for direct MP4 and HLS candidates",
+    "Ad and preview filtering to surface real video content",
+    "Right-click context menu for page and video contexts",
+    "Shared download manager with progress UI",
+    "Shared offscreen processing for stream and file download work",
+    "OTP email activation through auth.serp.co",
+    "3 free downloads included before paid license flow"
+  ],
+  "content": {
+    "why": [
+      "EmpFlix hosts a large library of adult videos, but saving them for offline viewing is not as simple as right-clicking and saving. The actual media stream is often hidden behind player scripts, making standard browser save options useless. Generic web downloaders can confuse ads, previews, or thumbnails with the real video content.",
+      "Empflix Downloader solves this by working directly on the EmpFlix page. It checks for playable media candidates, filters out ad and preview content, and presents you with clear download options. The extension adds a download button to the player, works through the popup, and supports right-click access. No need to inspect page source or use third-party download sites."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Empflix and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Empflix Downloader extension from the latest GitHub release.",
+      "Open your browser and navigate to Empflix.com.",
+      "Browse or search for a video you want to download.",
+      "Click on the video to open its dedicated playback page.",
+      "Press the play button on the video player to start the stream.",
+      "Look for the download button that appears near the player, or click the extension icon in your toolbar.",
+      "Choose from the detected format options shown in the popup or player overlay.",
+      "Click the download option and wait for the file to save to your default download folder."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs and HLS/M3U8 streams exposed by the EmpFlix player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "EmpFlix viewers who want a simple browser workflow for saving videos for offline viewing",
+      "Non-technical users who prefer a button-based extension over copy and paste downloader sites",
+      "Users who want to avoid inspecting page source to find media URLs",
+      "Anyone looking for a browser-native solution without desktop software"
+    ],
+    "use_cases": [
+      "Save an EmpFlix video for offline viewing without an internet connection",
+      "Capture direct MP4 or HLS candidates exposed by the video page",
+      "Use the in-page player button instead of searching through developer tools",
+      "Access downloads through the extension popup with detected formats listed",
+      "Use the right-click context menu for quick download access on any video page"
+    ],
+    "troubleshooting": [
+      "No download button appears on the video page Press play on the video first. Many EmpFlix pages only expose the media stream after playback starts or after player scripts run.",
+      "The extension shows no detected formats Refresh the page, press play again, and wait a few seconds for the player to fully load. Check that you are on a supported EmpFlix video page.",
+      "Downloads fail or stop mid-way Check your internet connection and try again. Some large files may take time to process through the offscreen pipeline.",
+      "The context menu option is missing Make sure the extension is installed correctly and has the necessary permissions. Right-click on the video area or page background.",
+      "Only low quality options appear The available quality depends on what the EmpFlix source exposes. The extension shows what the page provides."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Empflix page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Press play on the video to trigger media detection on most EmpFlix pages",
+      "Available quality options depend on what the EmpFlix source provides"
+    ],
+    "about": [
+      "EmpFlix is an adult entertainment platform featuring a large collection of user-uploaded and studio-produced videos across numerous categories. This extension helps users save videos from the platform for offline viewing through a simple browser-based workflow."
+    ]
+  },
+  "serpx_link": "https://serpx.link/empflix-downloader",
+  "github_topics": [
+    "empflix-download",
+    "empflix-downloader",
+    "empflix-video-downloader",
+    "empflix-video-downloader-online",
+    "empflix-video-downloader-mac",
+    "empflix-video-downloader-window",
+    "empflix-video-downloader-free",
+    "empflix-video-downloader-extension",
+    "empflix-video-downloader-app",
+    "empflix-video-downloader-chrome",
+    "empflix-video-downloader-from-url",
+    "how-to-download-empflix-videos",
+    "how-to-download-empflix-videos-mac",
+    "how-to-download-empflix-videos-windows",
+    "how-to-download-empflix-videos-online",
+    "how-to-download-empflix-videos-free",
+    "how-to-download-from-empflix",
+    "how-to-download-videos-from-empflix",
+    "download-empflix-videos",
+    "empflix-video-tutorial",
+    "save-empflix-videos",
+    "empflix-video-content-saver",
+    "how-to-download-empflix-videos-for-free"
+  ],
+  "hashtags": [
+    "#EmpflixDownload",
+    "#EmpflixDownloader",
+    "#EmpflixVideoDownloader",
+    "#EmpflixVideoDownloaderOnline",
+    "#EmpflixVideoDownloaderMac",
+    "#EmpflixVideoDownloaderWindow",
+    "#EmpflixVideoDownloaderFree",
+    "#EmpflixVideoDownloaderExtension",
+    "#EmpflixVideoDownloaderApp",
+    "#EmpflixVideoDownloaderChrome",
+    "#EmpflixVideoDownloaderFromURL",
+    "#HowToDownloadEmpflixVideos",
+    "#HowToDownloadEmpflixVideosMac",
+    "#HowToDownloadEmpflixVideosWindows",
+    "#HowToDownloadEmpflixVideosOnline",
+    "#HowToDownloadEmpflixVideosFree",
+    "#HowToDownloadFromEmpflix",
+    "#HowToDownloadVideosFromEmpflix",
+    "#DownloadEmpflixVideos",
+    "#EmpflixVideoTutorial",
+    "#SaveEmpflixVideos",
+    "#EmpflixVideoContentSaver",
+    "#HowToDownloadEmpflixVideosForFree"
+  ],
+  "youtube_tags": [
+    "Empflix Download",
+    "Empflix Downloader",
+    "Empflix Video Downloader",
+    "Empflix Video Downloader Online",
+    "Empflix Video Downloader Mac",
+    "Empflix Video Downloader Window",
+    "Empflix Video Downloader Free",
+    "Empflix Video Downloader Extension",
+    "Empflix Video Downloader App",
+    "Empflix Video Downloader Chrome",
+    "Empflix Video Downloader From URL",
+    "How To Download Empflix Videos",
+    "How To Download Empflix Videos Mac",
+    "How To Download Empflix Videos Windows",
+    "How To Download Empflix Videos Online",
+    "How To Download Empflix Videos Free",
+    "How To Download From Empflix",
+    "How To Download Videos From Empflix",
+    "Download Empflix Videos",
+    "Empflix Video Tutorial",
+    "Save Empflix Videos",
+    "Empflix Video Content Saver",
+    "How To Download Empflix Videos For Free"
+  ]
+}
